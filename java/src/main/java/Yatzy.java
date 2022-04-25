@@ -3,16 +3,8 @@ import java.util.stream.Collectors;
 
 public class Yatzy {
 
-    protected int[] dices; //array with the roll of all dices.
-    protected int betNumber; // number who represent the bet of Player for Ones,Twos,Threes,Fours,Fives,Sixes
+    private Yatzy() {
 
-    public Yatzy() {
-        this.dices = new int[5];
-    }
-
-    public Yatzy(int[] dices, int betNumber) {
-        this.dices = new int[5];
-        this.betNumber = betNumber;
     }
 
     /**
